@@ -1,0 +1,422 @@
+{
+  "compile_memory_path": "skills/.evidence/memory.md",
+  "compiled_package_id": "q-e",
+  "evidence": {
+    "core_skills": [
+      "q-e-inputs-and-modeling",
+      "q-e-test-suite",
+      "q-e-examples-and-tutorials",
+      "q-e-build-and-install",
+      "q-e-api-and-scripting",
+      "q-e-simulation-workflows"
+    ],
+    "evidence_dir": "skills/.evidence",
+    "files": [
+      "skills/.evidence/q-e-inputs-and-modeling.md",
+      "skills/.evidence/q-e-test-suite.md",
+      "skills/.evidence/q-e-examples-and-tutorials.md",
+      "skills/.evidence/q-e-build-and-install.md",
+      "skills/.evidence/q-e-api-and-scripting.md",
+      "skills/.evidence/q-e-simulation-workflows.md"
+    ]
+  },
+  "generation": {
+    "docs_only": false,
+    "generator_script": "sci-skills-generator/scripts/generate_skills_folder.py",
+    "max_skills": 30,
+    "return_code": 0,
+    "status": "ok"
+  },
+  "mode": "compile",
+  "pass_scope_diffs": {
+    "pass_2": {
+      "added": [
+        "skills/q-e-advanced-topics/SKILL.md",
+        "skills/q-e-advanced-topics/references/doc_map.md",
+        "skills/q-e-advanced-topics/references/source_map.md"
+      ],
+      "changed": [
+        "skills/q-e-advanced-topics/SKILL.md",
+        "skills/q-e-advanced-topics/references/doc_map.md",
+        "skills/q-e-advanced-topics/references/source_map.md",
+        "skills/q-e-api-and-scripting/SKILL.md",
+        "skills/q-e-build-and-install/SKILL.md",
+        "skills/q-e-cpv/SKILL.md",
+        "skills/q-e-cpv/references/doc_map.md",
+        "skills/q-e-cpv/references/source_map.md",
+        "skills/q-e-epw/SKILL.md",
+        "skills/q-e-epw/references/doc_map.md",
+        "skills/q-e-epw/references/source_map.md",
+        "skills/q-e-examples-and-tutorials/SKILL.md",
+        "skills/q-e-index/SKILL.md",
+        "skills/q-e-inputs-and-modeling/SKILL.md",
+        "skills/q-e-laxlib/SKILL.md",
+        "skills/q-e-laxlib/references/doc_map.md",
+        "skills/q-e-laxlib/references/source_map.md",
+        "skills/q-e-simulation-workflows/SKILL.md",
+        "skills/q-e-test-suite/SKILL.md",
+        "skills/q-e-utilxlib/SKILL.md",
+        "skills/q-e-utilxlib/references/doc_map.md",
+        "skills/q-e-utilxlib/references/source_map.md"
+      ],
+      "deleted": [
+        "skills/q-e-cpv/SKILL.md",
+        "skills/q-e-cpv/references/doc_map.md",
+        "skills/q-e-cpv/references/source_map.md",
+        "skills/q-e-epw/SKILL.md",
+        "skills/q-e-epw/references/doc_map.md",
+        "skills/q-e-epw/references/source_map.md",
+        "skills/q-e-laxlib/SKILL.md",
+        "skills/q-e-laxlib/references/doc_map.md",
+        "skills/q-e-laxlib/references/source_map.md",
+        "skills/q-e-utilxlib/SKILL.md",
+        "skills/q-e-utilxlib/references/doc_map.md",
+        "skills/q-e-utilxlib/references/source_map.md"
+      ],
+      "modified": [
+        "skills/q-e-api-and-scripting/SKILL.md",
+        "skills/q-e-build-and-install/SKILL.md",
+        "skills/q-e-examples-and-tutorials/SKILL.md",
+        "skills/q-e-index/SKILL.md",
+        "skills/q-e-inputs-and-modeling/SKILL.md",
+        "skills/q-e-simulation-workflows/SKILL.md",
+        "skills/q-e-test-suite/SKILL.md"
+      ]
+    },
+    "pass_3": {
+      "added": [
+        "skills/.compile_report.json",
+        "skills/.evidence/memory.md"
+      ],
+      "changed": [
+        "skills/.compile_report.json",
+        "skills/.evidence/memory.md",
+        "skills/q-e-advanced-topics/SKILL.md",
+        "skills/q-e-advanced-topics/references/source_map.md",
+        "skills/q-e-api-and-scripting/references/source_map.md",
+        "skills/q-e-build-and-install/SKILL.md",
+        "skills/q-e-build-and-install/references/source_map.md",
+        "skills/q-e-examples-and-tutorials/SKILL.md",
+        "skills/q-e-examples-and-tutorials/references/source_map.md",
+        "skills/q-e-getting-started/SKILL.md",
+        "skills/q-e-getting-started/references/source_map.md",
+        "skills/q-e-index/SKILL.md",
+        "skills/q-e-inputs-and-modeling/references/source_map.md",
+        "skills/q-e-simulation-workflows/references/source_map.md",
+        "skills/q-e-test-suite/references/source_map.md"
+      ],
+      "deleted": [],
+      "modified": [
+        "skills/q-e-advanced-topics/SKILL.md",
+        "skills/q-e-advanced-topics/references/source_map.md",
+        "skills/q-e-api-and-scripting/references/source_map.md",
+        "skills/q-e-build-and-install/SKILL.md",
+        "skills/q-e-build-and-install/references/source_map.md",
+        "skills/q-e-examples-and-tutorials/SKILL.md",
+        "skills/q-e-examples-and-tutorials/references/source_map.md",
+        "skills/q-e-getting-started/SKILL.md",
+        "skills/q-e-getting-started/references/source_map.md",
+        "skills/q-e-index/SKILL.md",
+        "skills/q-e-inputs-and-modeling/references/source_map.md",
+        "skills/q-e-simulation-workflows/references/source_map.md",
+        "skills/q-e-test-suite/references/source_map.md"
+      ]
+    }
+  },
+  "passes": [
+    {
+      "pass": 1,
+      "return_code": 0,
+      "status": "ok"
+    },
+    {
+      "pass": 2,
+      "return_code": 0,
+      "status": "ok"
+    },
+    {
+      "pass": 3,
+      "return_code": 0,
+      "status": "ok"
+    }
+  ],
+  "profile": {
+    "docs_dirs": [
+      "Doc",
+      "CPV/Doc",
+      "EPW/doc",
+      "GWW/doc",
+      "HP/Doc",
+      "KCW/Doc",
+      "NEB/Doc",
+      "PHonon/Doc",
+      "PP/Doc",
+      "PW/Doc",
+      "PWCOND/Doc",
+      "QEHeat/Doc",
+      "TDDFPT/Doc",
+      "XSpectra/Doc",
+      "atomic/Doc",
+      "GUI/Guib/doc",
+      "GUI/PWgui/doc",
+      "GUI/QE-modes/Doc",
+      "test-suite/testcode/docs"
+    ],
+    "docs_only": false,
+    "notes": [
+      "Quantum ESPRESSO docs/examples/tests are distributed across many subpackages; explicit directory hints are required for good coverage.",
+      "Generator dry-run is deterministic with this profile (two identical dry-run outputs).",
+      "Patched sci-skills-generator/scripts/generate_skills_folder.py to avoid Python f-string backslash SyntaxError in this environment."
+    ],
+    "package_name": "q-e",
+    "profile_path": "skills/.compile_profile.json",
+    "profile_source": "file",
+    "source_dirs": [
+      "COUPLE",
+      "CPV",
+      "EPW",
+      "FFTXlib",
+      "GWW",
+      "HP",
+      "KCW",
+      "KS_Solvers",
+      "LAXlib",
+      "LR_Modules",
+      "Modules",
+      "NEB",
+      "PHonon",
+      "PIOUD",
+      "PP",
+      "PW",
+      "PWCOND",
+      "QEHeat",
+      "TDDFPT",
+      "UtilXlib",
+      "XClib",
+      "XSpectra",
+      "atomic",
+      "dft-d3",
+      "include",
+      "upflib"
+    ],
+    "test_dirs": [
+      "test-suite",
+      "COUPLE/tests",
+      "FFTXlib/tests",
+      "LAXlib/tests",
+      "UtilXlib/tests",
+      "XClib/test_input_files",
+      "GUI/PWgui/tests"
+    ],
+    "tutorial_dirs": [
+      "COUPLE/examples",
+      "CPV/examples",
+      "EPW/examples",
+      "FFTXlib/examples",
+      "GWW/examples",
+      "HP/examples",
+      "KCW/examples",
+      "NEB/examples",
+      "PHonon/examples",
+      "PIOUD/examples",
+      "PP/examples",
+      "PW/examples",
+      "PWCOND/examples",
+      "QEHeat/examples",
+      "TDDFPT/examples",
+      "XSpectra/examples",
+      "atomic/examples",
+      "GUI/Guib/examples",
+      "GUI/PWgui/examples",
+      "PHonon/FD/example",
+      "PP/simple_transport/examples"
+    ],
+    "warnings": []
+  },
+  "project_root": "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/q-e-q-e",
+  "run_id": "compile_20260301T024427239230Z",
+  "skill_plan": {
+    "available_skill_ids": [
+      "q-e-api-and-scripting",
+      "q-e-build-and-install",
+      "q-e-cpv",
+      "q-e-epw",
+      "q-e-examples-and-tutorials",
+      "q-e-getting-started",
+      "q-e-index",
+      "q-e-inputs-and-modeling",
+      "q-e-laxlib",
+      "q-e-simulation-workflows",
+      "q-e-test-suite",
+      "q-e-utilxlib"
+    ],
+    "core_skill_ids": [
+      "q-e-inputs-and-modeling",
+      "q-e-test-suite",
+      "q-e-examples-and-tutorials",
+      "q-e-build-and-install",
+      "q-e-api-and-scripting",
+      "q-e-simulation-workflows"
+    ],
+    "deferred_gaps": [
+      "Decide whether GUI-specific topics should stay merged with core workflows or split into separate skills.",
+      "Assess whether module-level docs with sparse coverage (for example CPV/EPW single-doc buckets) need manual enrichment after consolidation."
+    ],
+    "goal": "Generate q-e docs-first skills in pass 2, then consolidate and audit in pass 3.",
+    "mode": "compile",
+    "priority_skills": [
+      {
+        "action": "create",
+        "must_cover": [
+          "route user intents to generated topic skills",
+          "enforce docs-first lookup before source inspection",
+          "point to test and example roots for validation"
+        ],
+        "reason": "All downstream routing quality depends on a strong index that dispatches by workflow intent.",
+        "skill_id": "q-e-index",
+        "source_hints": [
+          "Doc",
+          "README.md",
+          "skills/.compile_profile.json"
+        ]
+      },
+      {
+        "action": "create",
+        "must_cover": [
+          "configure and CMake/Make build paths",
+          "dependency and toolchain caveats",
+          "GPU/MPI build entry points"
+        ],
+        "reason": "Build/configure failures are common first-contact blockers and impact all users.",
+        "skill_id": "q-e-build-and-install",
+        "source_hints": [
+          "Doc",
+          "CMakeLists.txt",
+          "cmake",
+          "configure",
+          "install"
+        ]
+      },
+      {
+        "action": "create",
+        "must_cover": [
+          "core pw/ph/neb style input patterns",
+          "material/system setup choices",
+          "high-impact convergence knobs"
+        ],
+        "reason": "Input setup and modeling choices dominate scientific correctness and user questions.",
+        "skill_id": "q-e-inputs-and-modeling",
+        "source_hints": [
+          "PW/Doc",
+          "PHonon/Doc",
+          "NEB/Doc",
+          "PP/Doc",
+          "PW/examples"
+        ]
+      },
+      {
+        "action": "create",
+        "must_cover": [
+          "scf-nscf-postprocess style chains",
+          "restart/checkpoint workflows",
+          "run script patterns from examples"
+        ],
+        "reason": "Users need runnable end-to-end flows, restart patterns, and output checkpoints.",
+        "skill_id": "q-e-simulation-workflows",
+        "source_hints": [
+          "PW/examples",
+          "PHonon/examples",
+          "TDDFPT/examples",
+          "QEHeat/examples",
+          "test-suite"
+        ]
+      },
+      {
+        "action": "create",
+        "must_cover": [
+          "how to select and run relevant test groups",
+          "how to interpret benchmark and reference outputs",
+          "how to map failures back to module workflows"
+        ],
+        "reason": "Regression/reference behavior is concentrated in test-suite and is critical for reliable troubleshooting.",
+        "skill_id": "q-e-test-suite",
+        "source_hints": [
+          "test-suite",
+          "test-suite/testcode/docs",
+          "LAXlib/tests",
+          "UtilXlib/tests"
+        ]
+      },
+      {
+        "action": "create",
+        "must_cover": [
+          "CLI/tool script entry points",
+          "input/output conversion helpers",
+          "minimal scripted usage patterns"
+        ],
+        "reason": "Automation and scripting requests depend on scattered helper tools and interface docs.",
+        "skill_id": "q-e-api-and-scripting",
+        "source_hints": [
+          "PW/tools",
+          "dev-tools",
+          "test-suite/testcode",
+          "EPW/doc"
+        ]
+      },
+      {
+        "action": "audit",
+        "must_cover": [
+          "collapse one-doc topic skills",
+          "preserve references in a single advanced map",
+          "update index routing after consolidation"
+        ],
+        "reason": "Dry-run shows several one-doc low-signal topics that should be merged to reduce routing clutter.",
+        "skill_id": "q-e-utilxlib",
+        "source_hints": [
+          "skills/q-e-*/references/doc_map.md",
+          "sci-skills-generator/references/generation-rubric.md"
+        ]
+      }
+    ],
+    "version": 1,
+    "warnings": []
+  },
+  "skill_plan_path": "skills/.evidence/skill_plan.json",
+  "validation": {
+    "core_skills_checked": [
+      "q-e-inputs-and-modeling",
+      "q-e-test-suite",
+      "q-e-examples-and-tutorials",
+      "q-e-build-and-install",
+      "q-e-api-and-scripting",
+      "q-e-simulation-workflows"
+    ],
+    "docs_only": false,
+    "errors": [
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/q-e-q-e/skills/q-e-api-and-scripting/references/source_map.md: broken path references: testcode.py",
+      "skill plan target missing from generated skills/: q-e-utilxlib"
+    ],
+    "index_skills": [
+      "q-e-index"
+    ],
+    "missing_planned_skills": [
+      "q-e-utilxlib"
+    ],
+    "ok": false,
+    "planned_skill_ids": [
+      "q-e-index",
+      "q-e-build-and-install",
+      "q-e-inputs-and-modeling",
+      "q-e-simulation-workflows",
+      "q-e-test-suite",
+      "q-e-api-and-scripting",
+      "q-e-utilxlib"
+    ],
+    "previous_source_inventory": {},
+    "skills_total": 9,
+    "source_inventory": {},
+    "source_links_total": 71,
+    "topic_skills": 8,
+    "warnings": []
+  }
+}

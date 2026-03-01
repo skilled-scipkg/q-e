@@ -1,0 +1,74 @@
+# q-e documentation map: Test Suite
+
+Generated from documentation roots:
+- `Doc`
+- `CPV/Doc`
+- `EPW/doc`
+- `GWW/doc`
+- `HP/Doc`
+- `KCW/Doc`
+- `NEB/Doc`
+- `PHonon/Doc`
+- `PP/Doc`
+- `PW/Doc`
+- `PWCOND/Doc`
+- `QEHeat/Doc`
+- `TDDFPT/Doc`
+- `XSpectra/Doc`
+- `atomic/Doc`
+- `GUI/Guib/doc`
+- `GUI/PWgui/doc`
+- `GUI/QE-modes/Doc`
+- `test-suite/testcode/docs`
+- `COUPLE/examples`
+- `CPV/examples`
+- `EPW/examples`
+- `FFTXlib/examples`
+- `GWW/examples`
+- `HP/examples`
+- `KCW/examples`
+- `NEB/examples`
+- `PHonon/examples`
+- `PIOUD/examples`
+- `PP/examples`
+- `PW/examples`
+- `PWCOND/examples`
+- `QEHeat/examples`
+- `TDDFPT/examples`
+- `XSpectra/examples`
+- `atomic/examples`
+- `GUI/Guib/examples`
+- `GUI/PWgui/examples`
+- `PHonon/FD/example`
+- `PP/simple_transport/examples`
+- `test-suite`
+- `COUPLE/tests`
+- `FFTXlib/tests`
+- `LAXlib/tests`
+- `UtilXlib/tests`
+- `XClib/test_input_files`
+- `GUI/PWgui/tests`
+
+Total docs grouped in this topic: 20
+
+## File inventory
+- `test-suite/testcode/README.rst` | title: testcode | headings: testcode; Documentation; Author
+- `test-suite/epw_wfpt/README.md` | title: Common setup | headings: Common setup; Testset 1: 4 bands (valence only); Testset 2: 8 bands (valence + conduction)
+- `test-suite/testcode/docs/index.rst` | title: testcode | headings: testcode; Indices and tables
+- `test-suite/testcode/docs/testcode.py.rst` | title: testcode.py | headings: testcode.py; Synopsis; Description
+- `test-suite/testcode/docs/userconfig.rst` | title: userconfig | headings: userconfig; [user] section; [program_name] section(s)
+- `test-suite/pw_md/md_restart_verlet_original.md` | title: Md Restart Verlet Original | headings: (no heading extracted)
+- `test-suite/not_epw_scdm/LGX.txt` | title: Lgx | headings: (no heading extracted)
+- `test-suite/epw_wfpt/kpath.GammaX.txt` | title: Kpath Gammax | headings: (no heading extracted)
+- `test-suite/epw_tdbe/LGX.txt` | title: Lgx | headings: (no heading extracted)
+- `test-suite/epw_qdpt/LGX.txt` | title: Lgx | headings: (no heading extracted)
+- `test-suite/epw_pl/qgrid.txt` | title: Qgrid | headings: (no heading extracted)
+- `test-suite/epw_pl/LGX.txt` | title: Lgx | headings: (no heading extracted)
+- `test-suite/epw_mob_polar/MGA.txt` | title: Mga | headings: (no heading extracted)
+- `test-suite/epw_mob_ibte_sym/LGX.txt` | title: Lgx | headings: (no heading extracted)
+- `test-suite/epw_mob_ibte/LGX.txt` | title: Lgx | headings: (no heading extracted)
+- `test-suite/epw_mob/kpt.txt` | title: Kpt | headings: (no heading extracted)
+- `test-suite/epw_mob/LGX.txt` | title: Lgx | headings: (no heading extracted)
+- `test-suite/epw_hall/LGXKG4.txt` | title: Lgxkg4 | headings: (no heading extracted)
+- `test-suite/testcode/docs/verification.rst` | title: Test verification | headings: Test verification
+- `test-suite/testcode/docs/configuration_files.rst` | title: Configuration files | headings: Configuration files

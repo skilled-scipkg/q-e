@@ -1,0 +1,87 @@
+# q-e documentation map: Inputs and Modeling
+
+Generated from documentation roots:
+- `Doc`
+- `CPV/Doc`
+- `EPW/doc`
+- `GWW/doc`
+- `HP/Doc`
+- `KCW/Doc`
+- `NEB/Doc`
+- `PHonon/Doc`
+- `PP/Doc`
+- `PW/Doc`
+- `PWCOND/Doc`
+- `QEHeat/Doc`
+- `TDDFPT/Doc`
+- `XSpectra/Doc`
+- `atomic/Doc`
+- `GUI/Guib/doc`
+- `GUI/PWgui/doc`
+- `GUI/QE-modes/Doc`
+- `test-suite/testcode/docs`
+- `COUPLE/examples`
+- `CPV/examples`
+- `EPW/examples`
+- `FFTXlib/examples`
+- `GWW/examples`
+- `HP/examples`
+- `KCW/examples`
+- `NEB/examples`
+- `PHonon/examples`
+- `PIOUD/examples`
+- `PP/examples`
+- `PW/examples`
+- `PWCOND/examples`
+- `QEHeat/examples`
+- `TDDFPT/examples`
+- `XSpectra/examples`
+- `atomic/examples`
+- `GUI/Guib/examples`
+- `GUI/PWgui/examples`
+- `PHonon/FD/example`
+- `PP/simple_transport/examples`
+- `test-suite`
+- `COUPLE/tests`
+- `FFTXlib/tests`
+- `LAXlib/tests`
+- `UtilXlib/tests`
+- `XClib/test_input_files`
+- `GUI/PWgui/tests`
+
+Total docs grouped in this topic: 33
+
+## File inventory
+- `PP/Doc/INPUT_OSCDFT_ET.txt` | title: Program: oscdft_et.x / PWscf / Quantum ESPRESSO (version: 7.4) | headings: Program: oscdft_et.x / PWscf / Quantum ESPRESSO (version: 7.4); Structure of the input data:; Description:    prefix of the initial pw.x calculation.
+- `PP/Doc/INPUT_PPACF.txt` | title: Program: ppacf.x / PWscf / Quantum ESPRESSO (version: 7.4) | headings: Program: ppacf.x / PWscf / Quantum ESPRESSO (version: 7.4); Structure of the input data:; prefix.ecnl, prefix.tcnl, etc.
+- `atomic/Doc/INPUT_LD1.txt` | title: Program: ld1.x /  / Quantum ESPRESSO (version: 7.4) | headings: Program: ld1.x /  / Quantum ESPRESSO (version: 7.4); Status:         OPTIONAL; Specify either "zed" OR "atom", not both!
+- `TDDFPT/Doc/INPUT_Spectrum.txt` | title: Program: turbo_spectrum.x / turboTDDFPT / Quantum ESPRESSO (version: 7.4) | headings: Program: turbo_spectrum.x / turboTDDFPT / Quantum ESPRESSO (version: 7.4); Structure of the input data:; same prefix.
+- `TDDFPT/Doc/INPUT_Magnon.txt` | title: Program: turbo_magnon.x / turboMAGNON / Quantum ESPRESSO (version: 7.4) | headings: Program: turbo_magnon.x / turboMAGNON / Quantum ESPRESSO (version: 7.4); Structure of the input data:; same prefix.
+- `TDDFPT/Doc/INPUT_Lanczos.txt` | title: Program: turbo_lanczos.x / turboTDDFPT / Quantum ESPRESSO (version: 7.4) | headings: Program: turbo_lanczos.x / turboTDDFPT / Quantum ESPRESSO (version: 7.4); Structure of the input data:; same prefix.
+- `TDDFPT/Doc/INPUT_EELS.txt` | title: Program: turbo_eels.x / turboEELS / Quantum ESPRESSO (version: 7.4) | headings: Program: turbo_eels.x / turboEELS / Quantum ESPRESSO (version: 7.4); Structure of the input data:; same prefix.
+- `TDDFPT/Doc/INPUT_Davidson.txt` | title: Program: turbo_davidson.x / turboTDDFPT / Quantum ESPRESSO (version: 7.4) | headings: Program: turbo_davidson.x / turboTDDFPT / Quantum ESPRESSO (version: 7.4); Structure of the input data:; same prefix.
+- `QEHeat/Doc/INPUT_ALL_CURRENTS.txt` | title: Program: all_currents.x / QEHeat / Quantum ESPRESSO (version: 7.4) | headings: Program: all_currents.x / QEHeat / Quantum ESPRESSO (version: 7.4); Structure of the input data:; in order to compute some parts of the current. Note that is in the pw.x units.
+- `PWCOND/Doc/INPUT_PWCOND.txt` | title: Program: pwcond.x / PWscf / Quantum ESPRESSO (version: 7.4) | headings: Program: pwcond.x / PWscf / Quantum ESPRESSO (version: 7.4); Structure of the input data:; Description:    temporary directory (as in PWscf)
+- `PP/Doc/INPUT_pw2wannier90.txt` | title: Program: pw2wannier90.x / PWscf / Quantum ESPRESSO (version: 7.4) | headings: Program: pw2wannier90.x / PWscf / Quantum ESPRESSO (version: 7.4); Structure of the input data:; Description:    prefix of files saved by program pw.x
+- `PP/Doc/INPUT_pw2gw.txt` | title: Program: pw2gw.x / PWscf / Quantum ESPRESSO (version: 7.4) | headings: Program: pw2gw.x / PWscf / Quantum ESPRESSO (version: 7.4); Structure of the input data:; should be equal to the value given in the main calculations.
+- `PP/Doc/INPUT_pw2bgw.txt` | title: Program: pw2bgw.x / PWscf / Quantum ESPRESSO (version: 7.4) | headings: Program: pw2bgw.x / PWscf / Quantum ESPRESSO (version: 7.4); Structure of the input data:; Description:    prefix of files saved by program pw.x
+- `PP/Doc/INPUT_molecularpdos.txt` | title: Program: molecularpdos.x / PWscf / Quantum ESPRESSO (version: 7.4) | headings: Program: molecularpdos.x / PWscf / Quantum ESPRESSO (version: 7.4); Structure of the input data:; for the full system and its molecular part
+- `PP/Doc/INPUT_bgw2pw.txt` | title: Program: bgw2pw.x / PWscf / Quantum ESPRESSO (version: 7.4) | headings: Program: bgw2pw.x / PWscf / Quantum ESPRESSO (version: 7.4); Structure of the input data:; Description:    prefix of files saved by program pw.x
+- `PP/Doc/INPUT_PROJWFC.txt` | title: Program: projwfc.x / PWscf / Quantum ESPRESSO (version: 7.4) | headings: Program: projwfc.x / PWscf / Quantum ESPRESSO (version: 7.4); Structure of the input data:; Default:        'pwscf'
+- `PP/Doc/INPUT_PPRISM.txt` | title: Program: pprism.x / PWscf / Quantum ESPRESSO (version: 7.4) | headings: Program: pprism.x / PWscf / Quantum ESPRESSO (version: 7.4); Description:    prefix of files saved by program pw.x; current directory ('./') otherwise
+- `PP/Doc/INPUT_PP.txt` | title: Program: pp.x / PWscf / Quantum ESPRESSO (version: 7.4) | headings: Program: pp.x / PWscf / Quantum ESPRESSO (version: 7.4); Description:    reprinted on output, CUB files and other places; Description:    prefix of files saved by program pw.x
+- `PP/Doc/INPUT_DOS.txt` | title: Program: dos.x / PWscf / Quantum ESPRESSO (version: 7.4) | headings: Program: dos.x / PWscf / Quantum ESPRESSO (version: 7.4); Structure of the input data:; (wavefunctions are not needed)
+- `PP/Doc/INPUT_BAND_INTERPOLATION.txt` | title: Program: band_interpolation.x / PWscf / Quantum ESPRESSO (version: 7.4) | headings: Program: band_interpolation.x / PWscf / Quantum ESPRESSO (version: 7.4); Structure of the input data:; WARNING: This method is REALLY simple and provides only a very rough estimate of the band structure.
+- `PP/Doc/INPUT_BANDS.txt` | title: Program: bands.x / PWscf / Quantum ESPRESSO (version: 7.4) | headings: Program: bands.x / PWscf / Quantum ESPRESSO (version: 7.4); Structure of the input data:; Description:    prefix of files saved by program pw.x
+- `PHonon/Doc/INPUT_Q2R.txt` | title: Program: q2r.x / PHonon / Quantum ESPRESSO (version: 7.4) | headings: Program: q2r.x / PHonon / Quantum ESPRESSO (version: 7.4); Structure of the input data:; .xml extension.
+- `PHonon/Doc/INPUT_POSTAHC.txt` | title: Program: postahc.x / PHonon / Quantum ESPRESSO (version: 7.4) | headings: Program: postahc.x / PHonon / Quantum ESPRESSO (version: 7.4); Structure of the input data:; Description:    Directory where the binary files are located.
+- `PHonon/Doc/INPUT_PH.txt` | title: Program: ph.x / PHonon / Quantum ESPRESSO (version: 7.5) | headings: Program: ph.x / PHonon / Quantum ESPRESSO (version: 7.5); Structure of the input data:; Description:    Title of the job, i.e., a line that is reprinted on output.
+- `PHonon/Doc/INPUT_MATDYN.txt` | title: Program: matdyn.x / PHonon / Quantum ESPRESSO (version: 7.4) | headings: Program: matdyn.x / PHonon / Quantum ESPRESSO (version: 7.4); Structure of the input data:; format). No default value: must be specified.
+- `PHonon/Doc/INPUT_DYNMAT.txt` | title: Program: dynmat.x / PHonon / Quantum ESPRESSO (version: 7.4) | headings: Program: dynmat.x / PHonon / Quantum ESPRESSO (version: 7.4); Structure of the input data:; Default:        'matdyn'
+- `NEB/Doc/INPUT_NEB.txt` | title: END OF SUPERCARD :  BEGIN_PATH_INPUT/END_PATH_INPUT | headings: END OF SUPERCARD :  BEGIN_PATH_INPUT/END_PATH_INPUT; END OF SUPERCARD :  BEGIN_ENGINE_INPUT/END_ENGINE_INPUT; END OF SUPERCARD :  BEGIN/END
+- `HP/Doc/INPUT_HP.txt` | title: Program: hp.x / PWscf / Quantum ESPRESSO (version: 7.4) | headings: Program: hp.x / PWscf / Quantum ESPRESSO (version: 7.4); Structure of the input data:; used in the calculation of unperturbed system.
+- `CPV/Doc/INPUT_CPPP.txt` | title: Program: cppp.x / CP / Quantum ESPRESSO (version: 7.4) | headings: Program: cppp.x / CP / Quantum ESPRESSO (version: 7.4); CP Post-Processing code (cppp.x); INPUT:
+- `CPV/Doc/INPUT_CP.txt` | title: END OF SUPERCARD :  AUTOPILOT/ENDRULES | headings: END OF SUPERCARD :  AUTOPILOT/ENDRULES; Program: cp.x / CP / Quantum ESPRESSO (version: 7.4); Structure of the input data:
+- `PP/Doc/INPUT_D3HESS.txt` | title: Program: d3hess.x / PWscf / Quantum ESPRESSO (version: 7.4) | headings: Program: d3hess.x / PWscf / Quantum ESPRESSO (version: 7.4); Structure of the input data:; (wavefunctions are not needed)
+- `PP/Doc/INPUT_OSCDFT_PP.txt` | title: Program: oscdft_pp.x / PWscf / Quantum ESPRESSO (version: 7.4) | headings: Program: oscdft_pp.x / PWscf / Quantum ESPRESSO (version: 7.4); Structure of the input data:; Description:    prefix of the pw.x calculation.
+- `test-suite/testcode/docs/jobconfig.rst` | title: jobconfig | headings: jobconfig; Tests; Test categories
